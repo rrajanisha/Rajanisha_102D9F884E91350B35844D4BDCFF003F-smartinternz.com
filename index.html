@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handwritten Digit Recognition</title>
+  <link rel="stylesheet" href="nisha.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Handwritten Digit Recognition</h1>
+    <p>Draw a digit (0-9) in the box below:</p>
+    <canvas id="canvas" width="280" height="280"></canvas>
+    <div class="buttons">
+      <button id="clear-btn">Clear</button>
+      <button id="predict-btn">Predict</button>
+    </div>
+    <h2>Prediction: <span id="prediction-result">-</span></h2>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="nisha.js"></script>
+</body>
+</html>
